@@ -1,0 +1,6 @@
+a = (2, 5, 4)
+b = (5, 8, 1, 2)
+c = b + a
+print(c)
+print(c.count(2))#COUNT EM TUPLAS, CONTA QUANTAS VEZES O VALOR EM "()" SE ENCONTRA DENTRO DELA
+print(c.index(2))#INDEX EM TUPLAS, MOSTRA A POSIÇÃO DO "PRIMEIRO" VALOR EM "()" ENCONTRADO
