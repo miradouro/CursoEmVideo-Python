@@ -19,7 +19,7 @@ while True:
         cabecalho('NOVO CADASTRO')
         nome = str(input('Nome: ')).strip().title()
         idade = leiaInt('Idade: ')
-        cadastrar(arq, nome, idade)
+        cadastrar(arq, nome, idade) 
     elif resposta == 3:
         cabecalho('Saindo do sistema... Até logo!')
         sleep(2)
